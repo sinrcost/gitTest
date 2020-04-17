@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="济世大脑系统AI接口测试" parallel="false" verbose="3">   <!--  整个项目，所有的模块
+                                                                parallel是否在不同的线程并行进行测试
+                                                                verbose控制台输出的详细内容等级-->
+
+
+    <listeners><!-- 监听器设置，生成测试报告的监听器，不要改此处代码 -->
+        <listener class-name="com.jishibrain.ai.listeners.ExtentIReporterListenerUtil" /><!--这是extentreport报告的监听-->
+    </listeners>
+
+
+    <test name="AI接口" verbose="5" preserve-order="true"><!--verbose控制台输出的详细内容等级,0-10级（0无，10最详细)不在报告显示
+                                                      preserve-order 是否按照排序执行，如果是true，将按照xml文件中的顺序去执行-->
+        <classes>
+
+            <!--<class name="cn.jishibrain.ai.login.LoginTest" />-->       <!--登录-->
+
+
+            <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryCreateTest" />  <!--创建公共意图类别-->
+            <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryEditTest" />   <!--编辑公共意图类别-->
+            <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryDeleTest" />    <!--删除公共意图类别-->
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCateCreareTest" />       <!--创建场景类别-->
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCreateTest" />           <!--创建场景-->
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.UnitCreateTest" />            <!--新增单元-->
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.ConversationAddTest" />       <!--新增话术-->
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.UnitPreservationTest" />      <!--保存单元-->
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.ConfirmUpdateTest" />         <!--确认更新场景-->
+            <class name="cn.jishibrain.ai.robotmanage.ConfigRobotForSceneTest" />                   <!--为场景配置机器人-->
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.TrialTaskDialTest" />         <!--拨打试用任务-->
+          <!--  <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneDeleTest" />             &lt;!&ndash;删除场景&ndash;&gt;
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCateDeleTest" /> -->        <!--删除场景类别-->
+
+
+        </classes>
+
+    </test>
+
+
+
+
+
+
+</suite>
