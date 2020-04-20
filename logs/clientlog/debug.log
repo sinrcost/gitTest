@@ -7860,3 +7860,933 @@
 	"seqNo":"",
 	"time":"2020-04-16 14:15:04"
 } 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第0列的值为：正常的数据 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第0列的值为：类别名称已存在 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第1列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第2列的值为：130001 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第3列的值为：意图类别已存在 
+[CrazyAutoTest] 2020/04/17 19:04:7   INFO main com.jishibrain.ai.utils.HttpResponseUtil:251 - intentionTypeName 
+[CrazyAutoTest] 2020/04/17 19:04:8   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d275b01040001e106f0",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:07"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:8   INFO main com.jishibrain.ai.utils.HttpResponseUtil:251 - intentionTypeName 
+[CrazyAutoTest] 2020/04/17 19:04:8   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"意图类别已存在",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:08"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第0列的值为：正常编辑 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第2列的值为：新类别002#￥%编辑了 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第3列的值为：0 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第4列的值为：success 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第0列的值为：修改为已经存在的名称 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第2列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第3列的值为：130001 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第4列的值为：意图名称不能重复 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:08"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"意图名称不能重复",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:08"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第0列的值为：删除无意图的意图类别 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第0列的值为：删除有意图的意图类别 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第1列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第2列的值为：130001 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第3列的值为：该意图类别下还有意图,请先删除全部意图后再删除类别 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:08"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该意图类别下还有意图,请先删除全部意图后再删除类别",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:08"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第0列的值为：添加正常数据 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第0列的值为：添加已经存在的场景类别名 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/17 19:04:9   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第3列的值为：场景类别名称已经存在 
+[CrazyAutoTest] 2020/04/17 19:04:10   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d295b01040001e106f1",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:09"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:10   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"场景类别名称已经存在",
+	"res":130003,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:09"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:10   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d295b01040001e106f3",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:09"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:10   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d295b01040001e106f6",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:10"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:11   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"参数不能为空",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:10"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:11   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该表单已配置场景",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:10"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:11   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d2a5b01040001e106fa",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:10"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:11   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d2a5b01040001e106fc",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:10"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:12   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d2b5b01040001e106fe",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:11"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:12   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d2b5b01040001e106ff",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:11"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:13   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d2a5b01040001e106fa",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:12"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:14   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d2a5b01040001e106fc",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:13"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:16   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:15"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:16   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:15"
+} 
+[CrazyAutoTest] 2020/04/17 19:04:17   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e998d305b01040001e10709",
+	"msg":"添加试用任务成功",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-17 19:04:16"
+} 
+[CrazyAutoTest] 2020/04/20 09:11:31   INFO main com.jishibrain.ai.utils.HttpResponseUtil:154 - 完整url：http://192.168.3.68:2002/ai-web/ai/scene/delete?id=5e998d295b01040001e106f3 
+[CrazyAutoTest] 2020/04/20 09:11:32   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：401;响应内容：{"res":801,"msg":"5144515d-10c6-4e9b-8773-1f54102c8f62","data":null,"bytes":null,"seqNo":null,"time":"2020-04-20 09:10:25"} 
+[CrazyAutoTest] 2020/04/20 09:11:32   INFO main com.jishibrain.ai.utils.HttpResponseUtil:154 - 完整url：http://192.168.3.68:2002/ai-web/ai/scene/delete?id=5e998d295b01040001e106f6 
+[CrazyAutoTest] 2020/04/20 09:11:32   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：401;响应内容：{"res":801,"msg":"5144515d-10c6-4e9b-8773-1f54102c8f62","data":null,"bytes":null,"seqNo":null,"time":"2020-04-20 09:10:25"} 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第0列的值为：删除无场景的场景类别 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第0列的值为：删除有场景的场景类别 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第3列的值为：该场景类型下存在场景，删除失败 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：401;响应内容：{"res":801,"msg":"5144515d-10c6-4e9b-8773-1f54102c8f62","data":null,"bytes":null,"seqNo":null,"time":"2020-04-20 09:10:32"} 
+[CrazyAutoTest] 2020/04/20 09:11:38   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：401;响应内容：{"res":801,"msg":"5144515d-10c6-4e9b-8773-1f54102c8f62","data":null,"bytes":null,"seqNo":null,"time":"2020-04-20 09:10:32"} 
+[CrazyAutoTest] 2020/04/20 09:12:46   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第0列的值为：删除无场景的场景类别 
+[CrazyAutoTest] 2020/04/20 09:12:46   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/20 09:12:46   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 09:12:46   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 09:12:46   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第0列的值为：删除有场景的场景类别 
+[CrazyAutoTest] 2020/04/20 09:12:46   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/20 09:12:46   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/20 09:12:46   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第3列的值为：该场景类型下存在场景，删除失败 
+[CrazyAutoTest] 2020/04/20 09:12:47   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：401;响应内容：{"res":801,"msg":"5144515d-10c6-4e9b-8773-1f54102c8f62","data":null,"bytes":null,"seqNo":null,"time":"2020-04-20 09:11:40"} 
+[CrazyAutoTest] 2020/04/20 09:12:47   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：401;响应内容：{"res":801,"msg":"5144515d-10c6-4e9b-8773-1f54102c8f62","data":null,"bytes":null,"seqNo":null,"time":"2020-04-20 09:11:40"} 
+[CrazyAutoTest] 2020/04/20 09:14:17   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第0列的值为：删除无场景的场景类别 
+[CrazyAutoTest] 2020/04/20 09:14:17   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/20 09:14:17   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 09:14:17   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 09:14:17   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第0列的值为：删除有场景的场景类别 
+[CrazyAutoTest] 2020/04/20 09:14:17   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/20 09:14:17   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/20 09:14:17   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第3列的值为：该场景类型下存在场景，删除失败 
+[CrazyAutoTest] 2020/04/20 09:14:18   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 09:14:15"
+} 
+[CrazyAutoTest] 2020/04/20 09:14:19   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该场景类型下存在场景，删除失败",
+	"res":130003,
+	"seqNo":"",
+	"time":"2020-04-20 09:14:16"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:1   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第0列的值为：正常的数据 
+[CrazyAutoTest] 2020/04/20 10:28:1   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:28:1   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:28:1   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:28:1   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第0列的值为：类别名称已存在 
+[CrazyAutoTest] 2020/04/20 10:28:1   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第1列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:28:1   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第2列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:28:1   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第3列的值为：意图类别已存在 
+[CrazyAutoTest] 2020/04/20 10:28:2   INFO main com.jishibrain.ai.utils.HttpResponseUtil:251 - intentionTypeName 
+[CrazyAutoTest] 2020/04/20 10:28:2   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08af5b01040001e10731",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:27:59"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.HttpResponseUtil:251 - intentionTypeName 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"意图类别已存在",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:01"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第0列的值为：正常编辑 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第2列的值为：新类别002#￥%编辑了 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第3列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第4列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第0列的值为：修改为已经存在的名称 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第2列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第3列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:28:3   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第4列的值为：意图名称不能重复 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:01"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"意图名称不能重复",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:01"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第0列的值为：删除无意图的意图类别 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第0列的值为：删除有意图的意图类别 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第1列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第2列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第3列的值为：该意图类别下还有意图,请先删除全部意图后再删除类别 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:01"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该意图类别下还有意图,请先删除全部意图后再删除类别",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:02"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第0列的值为：添加正常数据 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第0列的值为：添加已经存在的场景类别名 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第3列的值为：场景类别名称已经存在 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b25b01040001e10732",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:02"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:4   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"场景类别名称已经存在",
+	"res":130003,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:02"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:5   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"com.netflix.hystrix.exception.HystrixRuntimeException: FormRemoteHttpService#notifyKnowledgeFormBind(NotifyKnowledgeFormDto) failed and no fallback available.",
+	"res":99999,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:02"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:5   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b25b01040001e10737",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:02"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:5   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"参数不能为空",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:02"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:5   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该表单已配置场景",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:03"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:5   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b35b01040001e1073b",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:03"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:6   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b35b01040001e1073d",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:03"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:6   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b35b01040001e1073f",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:03"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:6   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b35b01040001e10740",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:03"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:7   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b35b01040001e1073b",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:04"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:8   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b35b01040001e1073d",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:05"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:9   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:06"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:9   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:06"
+} 
+[CrazyAutoTest] 2020/04/20 10:28:9   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d08b75b01040001e1074a",
+	"msg":"添加试用任务成功",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:28:07"
+} 
+[CrazyAutoTest] 2020/04/20 10:30:50   INFO main com.jishibrain.ai.utils.HttpResponseUtil:154 - 完整url：http://192.168.3.68:2002/ai-web/ai/scene/delete?id=5e9d08b25b01040001e10734 
+[CrazyAutoTest] 2020/04/20 10:30:51   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"com.netflix.hystrix.exception.HystrixRuntimeException: FormRemoteHttpService#notifyKnowledgeFormUnBind(NotifyKnowledgeFormDto) failed and no fallback available.",
+	"res":99999,
+	"seqNo":"",
+	"time":"2020-04-20 10:30:48"
+} 
+[CrazyAutoTest] 2020/04/20 10:30:51   INFO main com.jishibrain.ai.utils.HttpResponseUtil:154 - 完整url：http://192.168.3.68:2002/ai-web/ai/scene/delete?id=5e9d08b25b01040001e10737 
+[CrazyAutoTest] 2020/04/20 10:30:51   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:30:49"
+} 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第0列的值为：删除无场景的场景类别 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第0列的值为：删除有场景的场景类别 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第3列的值为：该场景类型下存在场景，删除失败 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:30:49"
+} 
+[CrazyAutoTest] 2020/04/20 10:30:52   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该场景类型下存在场景，删除失败",
+	"res":130003,
+	"seqNo":"",
+	"time":"2020-04-20 10:30:49"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:22   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第0列的值为：正常的数据 
+[CrazyAutoTest] 2020/04/20 10:31:22   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:31:23   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:31:23   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:31:23   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第0列的值为：类别名称已存在 
+[CrazyAutoTest] 2020/04/20 10:31:23   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第1列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:31:23   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第2列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:31:23   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第3列的值为：意图类别已存在 
+[CrazyAutoTest] 2020/04/20 10:31:23   INFO main com.jishibrain.ai.utils.HttpResponseUtil:251 - intentionTypeName 
+[CrazyAutoTest] 2020/04/20 10:31:23   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d09785b01040001e1074d",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:21"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.HttpResponseUtil:251 - intentionTypeName 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"意图类别已存在",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:21"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第0列的值为：正常编辑 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第2列的值为：新类别002#￥%编辑了 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第3列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第4列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第0列的值为：修改为已经存在的名称 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第2列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第3列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第4列的值为：意图名称不能重复 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:21"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"意图名称不能重复",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:21"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第0列的值为：删除无意图的意图类别 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第0列的值为：删除有意图的意图类别 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第1列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第2列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第3列的值为：该意图类别下还有意图,请先删除全部意图后再删除类别 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:22"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该意图类别下还有意图,请先删除全部意图后再删除类别",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:22"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第0列的值为：添加正常数据 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第0列的值为：添加已经存在的场景类别名 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/20 10:31:24   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第3列的值为：场景类别名称已经存在 
+[CrazyAutoTest] 2020/04/20 10:31:25   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097a5b01040001e1074e",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:22"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:25   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"场景类别名称已经存在",
+	"res":130003,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:22"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:25   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"com.netflix.hystrix.exception.HystrixRuntimeException: FormRemoteHttpService#notifyKnowledgeFormBind(NotifyKnowledgeFormDto) failed and no fallback available.",
+	"res":99999,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:22"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:25   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097b5b01040001e10753",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:23"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:26   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"参数不能为空",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:23"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:26   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该表单已配置场景",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:23"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:26   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097b5b01040001e10757",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:23"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:26   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097b5b01040001e10759",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:24"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:26   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097c5b01040001e1075b",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:24"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:26   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097c5b01040001e1075c",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:24"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:27   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097b5b01040001e10757",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:25"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:28   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097b5b01040001e10759",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:25"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:29   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:26"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:29   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:27"
+} 
+[CrazyAutoTest] 2020/04/20 10:31:30   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d097f5b01040001e10766",
+	"msg":"添加试用任务成功",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:31:27"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第0列的值为：删除无场景的场景类别 
+[CrazyAutoTest] 2020/04/20 10:39:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/20 10:39:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:39:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:39:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第0列的值为：删除有场景的场景类别 
+[CrazyAutoTest] 2020/04/20 10:39:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/20 10:39:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/20 10:39:4   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除场景类别】的第2行第3列的值为：该场景类型下存在场景，删除失败 
+[CrazyAutoTest] 2020/04/20 10:39:5   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:03"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:6   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该场景类型下存在场景，删除失败",
+	"res":130003,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:03"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第0列的值为：正常的数据 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第0列的值为：类别名称已存在 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第1列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第2列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建意图类别】的第2行第3列的值为：意图类别已存在 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.HttpResponseUtil:251 - intentionTypeName 
+[CrazyAutoTest] 2020/04/20 10:39:47   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b715b01040001e10767",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:45"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.HttpResponseUtil:251 - intentionTypeName 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"意图类别已存在",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:45"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第0列的值为：正常编辑 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第2列的值为：新类别002#￥%编辑了 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第3列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第1行第4列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第0列的值为：修改为已经存在的名称 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第2列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第3列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【编辑意图类别】的第2行第4列的值为：意图名称不能重复 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:45"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"意图名称不能重复",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:46"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第0列的值为：删除无意图的意图类别 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第1列的值为：新类别002#￥% 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第0列的值为：删除有意图的意图类别 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第1列的值为：helloxfsun 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第2列的值为：130001 
+[CrazyAutoTest] 2020/04/20 10:39:48   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【删除意图类别】的第2行第3列的值为：该意图类别下还有意图,请先删除全部意图后再删除类别 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:46"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该意图类别下还有意图,请先删除全部意图后再删除类别",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:46"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第0列的值为：添加正常数据 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第1列的值为：接口自动化测试 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第2列的值为：0 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第1行第3列的值为：success 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第0列的值为：添加已经存在的场景类别名 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第1列的值为：1.1.0 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第2列的值为：130003 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.ExcelDataUtil:88 - 读取sheet工作表【创建场景类别】的第2行第3列的值为：场景类别名称已经存在 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b725b01040001e10768",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:46"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"场景类别名称已经存在",
+	"res":130003,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:46"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:49   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b735b01040001e1076a",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:47"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:50   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b735b01040001e1076d",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:47"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:50   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"参数不能为空",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:47"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:50   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"该表单已配置场景",
+	"res":130001,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:47"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:50   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b735b01040001e10771",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:48"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:50   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b745b01040001e10773",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:48"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:51   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b745b01040001e10775",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:48"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:51   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b745b01040001e10776",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:48"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:51   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b735b01040001e10771",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:49"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:52   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b745b01040001e10773",
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:50"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:53   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:51"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:53   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":null,
+	"msg":"success",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:51"
+} 
+[CrazyAutoTest] 2020/04/20 10:39:54   INFO main com.jishibrain.ai.utils.HttpResponseUtil:26 - 响应状态码：200;响应内容：{
+	"bytes":[],
+	"data":"5e9d0b775b01040001e10780",
+	"msg":"添加试用任务成功",
+	"res":0,
+	"seqNo":"",
+	"time":"2020-04-20 10:39:51"
+} 
