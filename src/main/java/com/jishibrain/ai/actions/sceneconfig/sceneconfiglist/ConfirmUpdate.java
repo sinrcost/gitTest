@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ *  确认更新场景
  * Created by sunxiufang on 2020/4/8 16:37
  */
 public class ConfirmUpdate {

@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class SceneCateCreareTest {
 
     @Test(dataProvider = "addSceneCateDatas")
-    public void addSceneCate(String dataName,String sceneCateName,String assertResValue,String assertMsgValue){
+    public void addSceneCate(String caseName,String sceneCateName,String assertResValue,String assertMsgValue){
         SceneCategoryCreate sceneCategoryCreate = new SceneCategoryCreate();
         Response response = sceneCategoryCreate.addSceneCate(sceneCateName);
         int statusCode = response.getStatusCode();

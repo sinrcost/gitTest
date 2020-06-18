@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
+ * 读取properties文件中某个参数值
  * Created by sunxiufang on 2020/4/1 15:41
  */
 public class PropertyUtil {
@@ -28,11 +29,12 @@ public class PropertyUtil {
         return param;
     }
 
-/**
+
     public static void main(String[] args) {
         PropertyUtil pro = new PropertyUtil();
         String driverClassName = pro.readPropertiesPara("jdbc.properties", "driverClassName");
         logger.info(driverClassName);
+
     }
-*/
+
 }

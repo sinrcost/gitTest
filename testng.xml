@@ -15,22 +15,24 @@
                                                       preserve-order 是否按照排序执行，如果是true，将按照xml文件中的顺序去执行-->
         <classes>
 
-            <!--<class name="cn.jishibrain.ai.login.LoginTest" />-->       <!--登录-->
+            <!--<class name="cn.jishibrain.ai.login.LoginTest" /> -->      <!--登录-->
 
-
-            <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryCreateTest" />  <!--创建公共意图类别-->
-            <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryEditTest" />   <!--编辑公共意图类别-->
-            <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryDeleTest" />    <!--删除公共意图类别-->
-            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCateCreareTest" />       <!--创建场景类别-->
-            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCreateTest" />           <!--创建场景-->
-            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.UnitCreateTest" />            <!--新增单元-->
-            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.ConversationAddTest" />       <!--新增话术-->
-            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.UnitPreservationTest" />      <!--保存单元-->
-            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.ConfirmUpdateTest" />         <!--确认更新场景-->
-            <class name="cn.jishibrain.ai.robotmanage.ConfigRobotForSceneTest" />                   <!--为场景配置机器人-->
-            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.TrialTaskDialTest" />         <!--拨打试用任务-->
-          <!--  <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneDeleTest" />             &lt;!&ndash;删除场景&ndash;&gt;
-            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCateDeleTest" /> -->        <!--删除场景类别-->
+          <!--  <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryCreateTest" />  &lt;!&ndash;创建公共意图类别&ndash;&gt;
+            <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryEditTest" />   &lt;!&ndash;编辑公共意图类别&ndash;&gt;
+            <class name="cn.jishibrain.ai.AIkonwledge.intention.IntentionCategoryDeleTest" />  -->  <!--删除公共意图类别-->
+           <!-- <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCateCreareTest" /> -->      <!--创建场景类别-->
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCreateTestNormal" />           <!--创建场景（正常数据）-->
+        <!--    <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCreateTestAbnormal" />          &lt;!&ndash;创建场景（异常数据）&ndash;&gt;
+             <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCreateWithExcelTest" />   &lt;!&ndash;Excel创建场景&ndash;&gt;
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SaveAnswerDefTest" />             &lt;!&ndash;保存默认答案&ndash;&gt;
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.UnitCreateTest" />            &lt;!&ndash;新增单元&ndash;&gt;
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.ConversationAddTest" />       &lt;!&ndash;新增话术&ndash;&gt;
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.UnitPreservationTest" />  -->    <!--保存单元-->
+        <!--    <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.ConfirmUpdateTest" />         &lt;!&ndash;确认更新场景&ndash;&gt;
+            <class name="cn.jishibrain.ai.robotmanage.ConfigRobotForSceneTest" />                   &lt;!&ndash;为场景配置机器人&ndash;&gt;
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.TrialTaskDialTest" />  -->       <!--拨打试用任务-->
+        <!--    <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneDeleTest" />             &lt;!&ndash;删除场景&ndash;&gt;
+            <class name="cn.jishibrain.ai.sceneconfig.sceneconfiglist.SceneCateDeleTest" />    -->     <!--删除场景类别-->
 
 
         </classes>

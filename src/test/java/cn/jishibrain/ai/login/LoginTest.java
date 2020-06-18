@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class LoginTest {
 
     @Test(dataProvider = "loginDatas")
-    public void test001_login(String dataname,String uname,String pword,String assertValue){
+    public void test001_login(String casename,String uname,String pword,String assertRes,String assertMsg){
         Login logintest = new Login();
         Response loginRes = logintest.login(uname,pword);
         int actualCode = loginRes.getStatusCode();
@@ -24,8 +24,10 @@ public class LoginTest {
         //断言
         Assert.assertEquals(actualCode,200);
         JSONObject jsonObject = JSON.parseObject(actualBody);
+        String actualres = jsonObject.getString("res");
         String actualmsg = jsonObject.getString("msg");
-        Assert.assertEquals(actualmsg,assertValue);
+        Assert.assertEquals(actualres,assertRes);
+        Assert.assertEquals(actualmsg,assertMsg);
 
     }
 

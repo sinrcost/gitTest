@@ -19,7 +19,7 @@ import java.sql.SQLException;
 public class IntentionCategoryEditTest {
 
     @Test(dataProvider = "editCate")
-    public void test001_editCate(String dataname,String nameBefore,String nameAfter,String assertResValue,String assertMsgValue){
+    public void test001_editCate(String casename,String nameBefore,String nameAfter,String assertResValue,String assertMsgValue){
         IntentionCategoryEdit intentionCategoryEdit = new IntentionCategoryEdit();
         Response response = intentionCategoryEdit.editIntenCate(nameBefore, nameAfter);
         int statusCode = response.getStatusCode();

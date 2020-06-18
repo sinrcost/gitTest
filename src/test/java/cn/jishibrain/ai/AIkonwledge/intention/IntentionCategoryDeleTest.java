@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class IntentionCategoryDeleTest {
 
     @Test(dataProvider = "deleteCateDatas")
-    public void test001_deleteCate(String dataName,String cateName,String assertResValue,String assertMsgValue){
+    public void test001_deleteCate(String caseName,String cateName,String assertResValue,String assertMsgValue){
         IntentionCategoryDele intentionCategoryDele = new IntentionCategoryDele();
         Response response = intentionCategoryDele.deleteIntenCate(cateName);
         int statusCode = response.getStatusCode();

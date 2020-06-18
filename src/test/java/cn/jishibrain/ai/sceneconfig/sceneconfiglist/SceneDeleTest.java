@@ -34,7 +34,8 @@ public class SceneDeleTest {
     public Object[][] deleSceneDatas(){
         Object[][] data = {
                 {"场景名称IDEA（使用云端表单）","0","success"},
-                {"场景名称IDEA（使用院内表单）","0","success"}
+                {"场景名称IDEA（使用院内表单）","0","success"},
+                {"引用模板","0","success"}
         };
         return data;
     }

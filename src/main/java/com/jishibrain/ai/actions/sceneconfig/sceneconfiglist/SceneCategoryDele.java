@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 删除场景类别
  * Created by sunxiufang on 2020/4/3 9:48
  */
 public class SceneCategoryDele {

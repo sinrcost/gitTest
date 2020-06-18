@@ -6,32 +6,39 @@ package com.jishibrain.ai.utils;
 
 
 import com.jishibrain.ai.response.Response;
+import okhttp3.*;
+import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.*;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
+import org.apache.http.entity.mime.FormBodyPart;
 import org.apache.http.entity.mime.HttpMultipartMode;
+import org.apache.http.entity.mime.MultipartEntity;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
+import org.apache.http.entity.mime.content.ContentBody;
+import org.apache.http.entity.mime.content.FileBody;
+import org.apache.http.entity.mime.content.StringBody;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
+import org.testng.Reporter;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class HttpRequestsUtil {
 
-    private static final Logger logger= Logger.getLogger(HttpResponseUtil.class);
+    private static final Logger logger= Logger.getLogger(HttpRequestsUtil.class);
     private static final CloseableHttpClient httpClient = HttpClientConfigUtil.gethttpClient();
     private static final RequestConfig config = HttpClientConfigUtil.getRequestConfig();
 
@@ -44,6 +51,7 @@ public class HttpRequestsUtil {
      */
     public static Response doGet(String url, Map<String,String> header) throws ClientProtocolException, IOException {
 
+        logger.info("url："+url);
         //创建HTTP GET请求
         HttpGet get = new HttpGet(url);
         //给请求设置配置信息
@@ -52,6 +60,7 @@ public class HttpRequestsUtil {
         //设置请求头
         if(header != null && !header.isEmpty()) {
             for(Map.Entry<String, String> entry : header.entrySet()) {
+                logger.info("hraders："+entry.getKey()+":"+entry.getValue());
                 get.addHeader(entry.getKey(),entry.getValue());
             }
         }
@@ -62,6 +71,8 @@ public class HttpRequestsUtil {
             //执行请求并获取响应
             res = httpClient.execute(get);
             response = HttpResponseUtil.processResponse(res);
+            String responseStr = response.getResponseStr();
+            logger.info(responseStr);
         }finally {
             if(response != null) {
                 res.close();
@@ -92,7 +103,6 @@ public class HttpRequestsUtil {
                 for(Map.Entry<String,String> entry : params.entrySet()){
                     builder.setParameter(entry.getKey(),entry.getValue());
                 }
-
             }
 
             //创建GET请求
@@ -103,7 +113,6 @@ public class HttpRequestsUtil {
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
-
 
 
         //设置请求头
@@ -161,11 +170,11 @@ public class HttpRequestsUtil {
         //设置请求头
         if(header != null && !header.isEmpty()) {
             for(Map.Entry<String, String> entry : header.entrySet()) {
+                logger.info("headers:"+entry.getKey()+":"+entry.getValue());
                 get.addHeader(entry.getKey(),entry.getValue());
             }
 
         }
-
 
         CloseableHttpResponse res = null;
         Response response = null;
@@ -173,12 +182,12 @@ public class HttpRequestsUtil {
             //执行请求并获取响应
             res = httpClient.execute(get);
             response = HttpResponseUtil.processResponse(res);
+            logger.info(response.getResponseStr());
 
         }finally {
             if(response != null) {
                 res.close();
             }
-
             get.releaseConnection();
         }
 
@@ -196,6 +205,8 @@ public class HttpRequestsUtil {
      */
     public static Response doPostWithString(String url, Map<String,String> header, String jsonStr) throws ClientProtocolException, IOException {
 
+        logger.info("请求url:"+url);
+        Reporter.log("请求url:"+url);
         //创建POST请求
         HttpPost post = new HttpPost(url);
         //给请求设置配置信息
@@ -204,6 +215,8 @@ public class HttpRequestsUtil {
         //设置请求头
         if(header != null && !header.isEmpty()) {
             for(Map.Entry<String, String> entry : header.entrySet()) {
+                logger.info("请求headers:"+entry.getKey()+":"+entry.getValue());
+                Reporter.log("请求headers:"+entry.getKey()+":"+entry.getValue());
                 post.addHeader(entry.getKey(),entry.getValue());
             }
 
@@ -215,13 +228,14 @@ public class HttpRequestsUtil {
         //注入请求参数
         post.setEntity(entity);
 
-
         CloseableHttpResponse res = null;
         Response response = null;
         try {
             //执行请求并获取响应
             res = httpClient.execute(post);
             response = HttpResponseUtil.processResponse(res);
+            logger.info("响应数据："+response.getResponseStr());
+            Reporter.log("响应数据："+response.getResponseStr());
 
         }finally {
             if(response != null) {
@@ -264,8 +278,6 @@ public class HttpRequestsUtil {
             }
 
         }
-
-
 
         CloseableHttpResponse res = null;
         Response response = null;
@@ -318,8 +330,6 @@ public class HttpRequestsUtil {
         //设置表单的Entity对象到POST请求中
         post.setEntity(formEntiry);
 
-
-
         CloseableHttpResponse res = null;
         Response response = null;
         try {
@@ -338,8 +348,51 @@ public class HttpRequestsUtil {
 
     }
 
+
+
+    /**
+     * 用OkHttpClient框架发送上传文件的请求
+     * @param url
+     * @param token
+     * @param file
+     * @return
+     * @throws Exception
+     */
+    public static ResponseBody doPostMultipartFile1(String url,String token, File file) throws Exception {
+        OkHttpClient client = new OkHttpClient();
+        RequestBody requestBody = new MultipartBody.Builder()
+                .setType(MultipartBody.FORM)
+                .addFormDataPart("file", "cjexcel.xlsx",
+                        RequestBody.create(MediaType.parse("multipart/form-data"), file))
+                .build();
+
+        Request request = new Request.Builder()
+                .url(url)
+                .addHeader("Authorization", token)
+                .post(requestBody)
+                .build();
+
+        okhttp3.Response response = client.newCall(request).execute();
+
+        ResponseBody responseBody = response.body();
+
+
+
+        return responseBody;
+    }
+
+
+
     /**
      * 通过POST请求上传文件
+     * @param url
+     * @param header
+     * @param params
+     * @param files
+     * @param boundary
+     * @param mimeType
+     * @return
+     * @throws Exception
      */
     public static Response doPostMultipartFile(String url, Map<String, String> header, Map<String, String> params, List<File> files, String boundary, String mimeType) throws Exception {
         //创建HTTP POST请求

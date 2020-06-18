@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 创建场景类别
  * Created by sunxiufang on 2020/4/2 16:41
  */
 public class SceneCategoryCreate {

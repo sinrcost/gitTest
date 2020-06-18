@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 拨打试用任务
  * Created by sunxiufang on 2020/4/8 17:59
  */
 public class TrialTaskDial {

@@ -19,7 +19,7 @@ import java.sql.Connection;
 public class IntentionCategoryCreateTest {
 
     @Test(dataProvider = "intenCateDatas")
-    public void test001_intentionCategoryCreate(String dataName,String intenCateName,String assertResValue,String assertMsgValue){
+    public void test001_intentionCategoryCreate(String casename,String intenCateName,String assertResValue,String assertMsgValue){
         IntentionCategoryCreate intentionCategoryCreate = new IntentionCategoryCreate();
         Response categoryRes = intentionCategoryCreate.createCategory(intenCateName);
         int statusCode = categoryRes.getStatusCode();

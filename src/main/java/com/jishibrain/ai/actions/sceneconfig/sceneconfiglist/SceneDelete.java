@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 删除场景
  * Created by sunxiufang on 2020/4/7 10:10
  */
 public class SceneDelete {

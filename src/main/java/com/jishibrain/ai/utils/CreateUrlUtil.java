@@ -70,6 +70,34 @@ public class CreateUrlUtil {
     }
 
 
+    public static String getUrlWithPara3(String urlInitial, Map<String,Object> params) {
+        String url = urlInitial;
+
+        if(params == null || params.size() == 0) {
+            return url;
+
+        }else {
+            StringBuffer sbuffer = new StringBuffer(url+"?");
+
+            for(Map.Entry<String,Object> entry : params.entrySet()) {
+                String key = entry.getKey();
+                String value = (String) entry.getValue();
+                try {
+                    value = URLEncoder.encode(value, "UTF-8");
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                sbuffer.append(key).append("=").append(value).append("&");
+            }
+
+            url = sbuffer.toString();
+            url = url.substring(0, url.length()-1);
+            return url;
+        }
+
+    }
+
+
     public static void main(String[] args) {
         String urlWithPara2 = getUrlWithPara2("http://192.168.3.68:2002/ai-web/ai/intentions/category", "5d9d583a14d847024c0408d8");
         System.out.println(urlWithPara2);

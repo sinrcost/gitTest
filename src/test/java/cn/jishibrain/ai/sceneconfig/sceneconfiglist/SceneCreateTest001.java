@@ -1,17 +1,11 @@
 package cn.jishibrain.ai.sceneconfig.sceneconfiglist;
-/**
- * 创建场景
- * 使用云端表单和院内表单新建两个场景
- */
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.jishibrain.ai.actions.sceneconfig.sceneconfiglist.SceneCreate;
 import com.jishibrain.ai.response.Response;
-import com.jishibrain.ai.utils.ExcelDataUtil;
 import com.jishibrain.ai.utils.JdbcUtil;
 import com.jishibrain.ai.utils.MapConvertStr;
-import com.sun.javafx.collections.MappingChange;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -23,19 +17,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by sunxiufang on 2020/4/3 10:44
+ * Created by sunxiufang on 2020/5/28 17:06
  */
-public class SceneCreateTest {
+public class SceneCreateTest001 {
 
-    @Test(dataProvider = "creaSceDatas")
-    public void test001_creaSce(String jsonStr,String assertResValue,String assertMsgValue) throws SQLException {
+    @org.testng.annotations.Test(dataProvider = "creaSceDatas")
+    public void test001_creaSce(String jsonStr,String assertResValue,String assertMsgValue,String formId) throws SQLException {
 
-        //判断所用表单有没有被使用,如果被使用接触表单的关联关系
+        //判断所用表单有没有被使用,如果被使用解除表单的关联关系
         Connection connection = JdbcUtil.getConnection();
-        ResultSet resultSetByQuery = JdbcUtil.getResultSetByQuery("SELECT * from t_mapping_scene_form  WHERE form_id = '5c5650b44555438e9bf261356c8353f2' and is_delete = '0' ");
+        ResultSet resultSetByQuery = JdbcUtil.getResultSetByQuery("SELECT * from t_mapping_scene_form  WHERE form_id = '"+formId+"' and is_delete = '0' ");
 
         if (resultSetByQuery.next()){
-            JdbcUtil.executeUpdate(connection, "UPDATE t_mapping_scene_form SET is_delete = '1' WHERE form_id = '5c5650b44555438e9bf261356c8353f2' and is_delete = '0' ");
+            JdbcUtil.executeUpdate(connection, "UPDATE t_mapping_scene_form SET is_delete = '1' WHERE form_id = '"+formId+"' and is_delete = '0' ");
         }
 
         SceneCreate sceneCreate = new SceneCreate();
@@ -120,9 +114,37 @@ public class SceneCreateTest {
 
         String jsonStr2 = MapConvertStr.getStrByMap(parasNorma2);
 
+        //接口参数-（引用场景模板）
+        Map<String,Object> parasTemplate = new HashMap<String, Object>();
+        parasTemplate.put("approach",1);                  	//绑定途径-0表示通过医院,1表示通过知识库
+        parasTemplate.put("automaticFrequency",1);            //
+        parasTemplate.put("automaticPostBack",true);
+        parasTemplate.put("automaticTime",5);                 //自动执行时间间隔
+        parasTemplate.put("dynamic",false);                   //是否为动态场景
+        parasTemplate.put("enableSms",false);                 //是否发送访后短信
+        parasTemplate.put("examine","true");                  //是否审核
+        parasTemplate.put("formId","e08e7542c6b64492915e603518b540b2");//
+        parasTemplate.put("formRepeatId","53bf02f13123433e81aa6d780f602d07");
+        parasTemplate.put("formVersion","");
+        parasTemplate.put("formVersionNum","V1.1");
+        parasTemplate.put("pushContentName","静态的二维表单");//	表单名称
+        parasTemplate.put("pushContentType","1");                                  //	关联内容类型 1、表单类型 3、提醒类型
+        parasTemplate.put("sceneCategory",cateid);                                 //场景类别id
+        parasTemplate.put("sceneName","引用模板");             //场景名称
+        parasTemplate.put("sceneTypeList","1");                                    //通信类型1:电话（默认） 2：微信
+        parasTemplate.put("speed",5);
+        parasTemplate.put("voiceType","baidu_1");
+        parasTemplate.put("volume",15);
+        parasTemplate.put("templateSceneId","5cf71b658c79ac274afe3215");
+        parasTemplate.put("templateSceneVersionId","5cf71b658c79ac274afe3216");
+        parasTemplate.put("autoFill",false);
+
+        String jsonTemplateStr3 = MapConvertStr.getStrByMap(parasTemplate);
+
         Object[][] datas = {
-                {jsonStr1,"0","success"},
-                {jsonStr2,"0","success"}
+                {jsonStr1,"0","success","8a09c4d91a7d4fa68f59d53f35e8642f"},
+                {jsonStr2,"0","success","5c5650b44555438e9bf261356c8353f2"},
+                {jsonTemplateStr3,"0","success","e08e7542c6b64492915e603518b540b2"}
         };
 
         return datas;
@@ -230,4 +252,7 @@ public class SceneCreateTest {
 
 
     }
+
+
+
 }
